@@ -131,19 +131,60 @@ nav {
   font-weight: 500px;
   padding: 10px 0px;
 }
-.contentBody .col-pilihan p {
+.contentBody .col-pilihan .pilihan-paragraf {
   font-size: 14px;
   font-weight: 400px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
-.contentBody .col-pilihan .date {
+.contentBody .date {
   font-size: 12px;
   font-weight: 400px;
   float: left;
 }
-.contentBody .col-pilihan .kategori {
+.contentBody .kategori {
   font-size: 12px;
-  font-weight: 500px;
+  font-weight: bold;
   float: right;
 }
 /* End Style Content Tutorial Pilihan */
+/* Start Style Content Tutorial Terpopuler */
+#content-populer {
+  max-height: max-content;
+}
+.contentBody .row-populer {
+  width: 900px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.contentBody .row-populer .image-populer {
+  width: 330px;
+  height: 165px;
+  max-height: 165px;
+  background: #c4c4c4;
+  float: left;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.row-populer .pencipta-populer img {
+  width: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+  float: left;
+}
+.row-populer .pencipta-populer p {
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 2px;
+  margin-bottom: 12px;
+}
+.row-populer h4 {
+  font-size: 20px;
+  font-weight: 500px;
+  padding-bottom: 10px;
+}
+.row-populer .populer-paragraf {
+  font-size: 14px;
+  font-family: 400px;
+  padding-bottom: 10px;
+}
+/* End Style Content Tutorial Terpopuler */
