@@ -62,6 +62,7 @@ nav {
   height: 30px;
 }
 /* End Style Navbar */
+/* Start Style Jumbotron */
 #jumbotron {
   background-repeat: no-repeat;
   background-image: url("../image/backgroundJumbotron.png");
@@ -94,3 +95,48 @@ nav {
   border-radius: 12px;
   padding: 4px 12px;
 }
+/* End Style Jumbotron */
+/* Start Style Content Tutorial Pilihan */
+.contentHeading {
+  color: #0088b9;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+.contentBody {
+  width: 900px;
+  margin-top: 15px;
+}
+.contentBody .col {
+  width: 280px;
+  float: left;
+}
+.contentBody .col-center {
+  margin: 0px 30px;
+}
+.contentBody .col div {
+  width: 280px;
+  height: 140px;
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+.contentBody .col h4 {
+  font-size: 20px;
+  font-weight: 500px;
+  padding: 10px 0px;
+}
+.contentBody .col p {
+  font-size: 14px;
+  font-weight: 400px;
+  padding-bottom: 5px;
+}
+.contentBody .col .date {
+  font-size: 12px;
+  font-weight: 400px;
+  float: left;
+}
+.contentBody .col .kategori {
+  font-size: 12px;
+  font-weight: 500px;
+  float: right;
+}
+/* End Style Content Tutorial Pilihan */
