@@ -97,44 +97,51 @@ nav {
 }
 /* End Style Jumbotron */
 /* Start Style Content Tutorial Pilihan */
+#content-pilihan {
+  width: 100%;
+  height: 353px;
+}
 .contentHeading {
   color: #0088b9;
   padding-top: 40px;
-  padding-left: 100px;
+  margin-left: 100px;
 }
 .contentBody {
+  width: 100%;
+}
+.contentBody .row-pilihan {
   width: 900px;
   margin-top: 15px;
 }
-.contentBody .col {
+.contentBody .col-pilihan {
   width: 280px;
   float: left;
 }
-.contentBody .col-center {
+.contentBody .col-pilihan-center {
   margin: 0px 30px;
 }
-.contentBody .col div {
+.contentBody .col-pilihan div {
   width: 280px;
   height: 140px;
   background: #c4c4c4;
   border-radius: 10px;
 }
-.contentBody .col h4 {
+.contentBody .col-pilihan h4 {
   font-size: 20px;
   font-weight: 500px;
   padding: 10px 0px;
 }
-.contentBody .col p {
+.contentBody .col-pilihan p {
   font-size: 14px;
   font-weight: 400px;
   padding-bottom: 5px;
 }
-.contentBody .col .date {
+.contentBody .col-pilihan .date {
   font-size: 12px;
   font-weight: 400px;
   float: left;
 }
-.contentBody .col .kategori {
+.contentBody .col-pilihan .kategori {
   font-size: 12px;
   font-weight: 500px;
   float: right;
