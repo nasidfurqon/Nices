@@ -120,12 +120,19 @@ nav {
 .col-pilihan-center {
   margin: 0px 30px;
 }
-.col-pilihan div {
+.col-pilihan img {
+  width: 280px;
+  height: 140px;
+  left: 126px;
+  top: 388px;
+  border-radius: 10px;
+}
+/* .col-pilihan div {
   width: 280px;
   height: 140px;
   background: #c4c4c4;
   border-radius: 10px;
-}
+} */
 .contentBody .col-pilihan h4 {
   font-size: 20px;
   font-weight: 500px;
@@ -156,11 +163,19 @@ nav {
   margin-top: 15px;
   margin-bottom: 40px;
 }
-.row-populer .image-populer {
+.row-populer .image-populer{
   width: 330px;
   height: 165px;
   max-height: 165px;
   background: #c4c4c4;
+  float: left;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.row-populer .image-populer img{
+  width: 330px;
+  height: 165px;
+  max-height: 165px;
   float: left;
   border-radius: 10px;
   margin-right: 15px;
@@ -235,12 +250,10 @@ nav {
 .col-kategori-right {
   margin-left: 10px;
 }
-.col-kategori div {
-  width: 100%;
-  height: 150px;
-  background-color: #c4c4c4;
+.col-kategori img {
+  background: linear-gradient(116.74deg, #969696 13.94%, #2B2B2B 100%);
   border-radius: 10px 10px 0px 0px;
-}
+} 
 .col-kategori p {
   color: #000000;
   text-decoration: none;
